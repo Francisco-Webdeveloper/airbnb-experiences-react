@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../images/photo-grid.png";
+import heroImage from "../images2/photo-grid.png";
 import classes from "./Hero.module.css";
 
 export default function Hero() {
