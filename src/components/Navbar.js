@@ -4,8 +4,8 @@ import classes from "./Navbar.module.css";
 
 export default function Navbar() {
   return (
-    <div className={classes.navbar}>
+    <nav>
       <img className={classes.navbarLogo} src={airbnbLogo} alt="airbnb logo" />
-    </div>
+    </nav>
   );
 }
