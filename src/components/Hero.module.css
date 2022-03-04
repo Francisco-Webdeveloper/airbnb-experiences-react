@@ -1,0 +1,23 @@
+.hero {
+  padding: 26px 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroImage {
+  max-width: 400px;
+  align-self: center;
+}
+
+.heroTitle {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  margin-top: 32px;
+}
+
+.heroText {
+  line-height: 110%;
+  color: #222222;
+  max-width: 340px;
+}
