@@ -28,14 +28,16 @@ export default function Card(props) {
         alt="experience"
       />
       <br />
-      <img className={classes.cardStar} src={star} alt="star" />
-      <span className={classes.cardRating}> {props.rating}</span>
-      <span className={classes.cardReviewCount}>
-        {" "}
-        {props.reviewCount} &#183;
-      </span>
-      <span className={classes.cardLocation}> {props.location}</span>
-      <p className={classes.cardDescription}>{props.title}</p>
+      <div>
+        <img className={classes.cardStar} src={star} alt="star" />
+        <span className={classes.cardRating}> {props.rating.toFixed(1)}</span>
+        <span className={classes.cardReviewCount}>
+          {" "}
+          ({props.reviewCount}) &#183;
+        </span>
+        <span className={classes.cardLocation}> {props.location}</span>
+      </div>
+      <p className={classes.cardTitle}>{props.title}</p>
       <p className={classes.cardPrice}>
         <strong>from ${props.price}</strong> / person
       </p>
