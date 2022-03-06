@@ -24,7 +24,7 @@ export default function Card(props) {
       {badge}
       <img
         className={classes.coverImg}
-        src={`../images/${props.img}`}
+        src={`../images/${props.img}?raw=true`}
         alt="experience"
       />
       <br />
