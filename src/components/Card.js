@@ -24,7 +24,7 @@ export default function Card(props) {
       {badge}
       <img
         className={classes.coverImg}
-        src={`../images/${props.img}?raw=true`}
+        src={process.env.PUBLIC_URL + `/images/${props.img}`}
         alt="experience"
       />
       <br />
